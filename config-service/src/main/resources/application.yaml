@@ -4,7 +4,7 @@ spring:
   cloud:    config:
       server:
         git:
-          default-label: master
+          default-label: gateway
           uri: https://github.com/Andreaag242/microserviciosTutorial.git
           search-paths: config-data
   application:
